@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initiL-scale=1.0">
+        <title>CSS-BASICS</title>
+        <style>
+            .combination{
+                background-color: yellow;
+                color: red;
+                padding: 20px;
+            }
+            .combination~h5{
+                color: orange;
+            }
+            .combination+h5+p{
+                color: firebrick;
+                background-color: burlywood;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>General sibling Selector(using ~ symbol) Example..</h1>
+        <hr>
+        <section class="combination" id="Akhil">
+            <h3>First H3 Tag..!(child element)</h3>
+            <p>First Paragraph..!(child element)</p>
+
+            <h3>Second H3 Tag..!(child element)</h3>
+            <p>Second Paragraph..!(child element)</p>
+
+            <h3>Third H3 Tag..!(child element)</h3>
+            <p>Third Paragraph..!(child element)</p>
+
+            <div>
+                <h3>Fourth H3 Tag..!(Grandchild element)</h3>
+                <p>Fourth Paragraph..!Grand(child element)</p>
+                
+            </div>
+            <h3>Fifth H3 Tag..!(child element)</h3>
+            <p>Fifth Paragraph..!(child element)</p>
+        </section>
+        <h5>This is first H5</h5>
+        <p>This is first paragraph</p>
+        <h5>This is second H5</h5>
+        <p>This is second paragraph</p>
+        <div>
+            <h5>This is third H5</h5>
+            <p>This is third paragraph</p>
+        </div>
+
+        <h5>This is fourth H5</h5>
+        <p>This is fourth paragraph</p>
+    </body>
+</html>

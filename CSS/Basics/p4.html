@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initiL-scale=1.0">
+        <title>CSS-BASICS</title>
+        <style>
+            .combination{
+                background-color: blueviolet;
+                color: red;
+                padding: 20px;
+            }
+            .combination+h5{
+                color: blue;
+            }
+            .combination+h5.test{
+                color: gray;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Adjecent sibling selector(using + symbol) Example..</h1>
+        <hr>
+        <section class="combination" id="Akhil">
+            <h3>First H3 Tag..!(child element)</h3>
+            <p>First Paragraph..!(child element)</p>
+
+            <h3>Second H3 Tag..!(child element)</h3>
+            <p>Second Paragraph..!(child element)</p>
+
+            <h3>Third H3 Tag..!(child element)</h3>
+            <p>Third Paragraph..!(child element)</p>
+
+            <div>
+                <h3>Fourth H3 Tag..!(Grandchild element)</h3>
+                <p>Fourth Paragraph..!Grand(child element)</p>
+                
+            </div>
+            <h3>Fifth H3 Tag..!(child element)</h3>
+            <p>Fifth Paragraph..!(child element)</p>
+        </section>
+        <h5>THIS IS FIRST H5</h5>
+        <h5 class="test">THIS IS SECOND H5</h5>
+        <H5>THIS IS third H5</H5>
+        <H5>THIS IS fourth H5</H5>
+    </body>
+</html>

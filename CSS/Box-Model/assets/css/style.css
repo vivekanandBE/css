@@ -1,0 +1,72 @@
+/* TITLE CODE */
+.jumbotron{
+    background-color: grey;
+    padding: 20px;
+    margin: 20px;
+    color: blue;
+    border-radius: 20px;
+    text-align: center;
+}
+/* COMMON CODE */
+.cssPadding>h1, .cssBorder>h1, .cssMargin>h1{
+    background-color: teal;
+    color: red;
+    border-radius: 20px;
+}
+.cssPadding>h1:nth-child(1){
+    padding: 50px;/*apply for all sides*/
+}
+.cssPadding>h1:nth-child(2){
+    padding: 25px 75px;/*apply for verticle horizontal sides*/
+}
+.cssPadding>h1:nth-child(3){
+    padding: 25px 50px 75px;/*apply for top verticle horizontal sides*/
+}
+.cssPadding>h1:nth-child(4){
+    padding: 50px 25px 70px 80px;/*apply for top verticle horizontal bottom sides*/
+}
+/* css border CODE */
+.cssBorder>h1{
+    padding: 50px;
+}
+
+
+.cssBorder>h1:nth-child(1){
+    border: 5px solid red;/*apply for all sides*/
+}
+.cssBorder>h1:nth-child(2){
+    border: 5px;
+    border-color: red blue;/*apply for verticle horizontal sides*/
+    border-style: solid;
+}
+.cssBorder>h1:nth-child(3){
+    border: 5px;/*apply for top verticle horizontal sides*/
+    border-color: red blue orange;
+    border-style: groove;
+}
+.cssBorder>h1:nth-child(4){
+    border: 5px;
+    border-color: red blue orange green;
+    border-style: groove;/*apply for top verticle horizontal bottom sides*/
+}
+/* css Margin CODE */
+.cssMargin>h1:nth-child(1){
+    Margin: 50px;/*apply for all sides*/
+}
+.cssMargin>h1:nth-child(2){
+    Margin: 25px 75px;/*apply for verticle horizontal sides*/
+}
+.cssMargin>h1:nth-child(3){
+    Margin: 25px 50px 75px;/*apply for top verticle horizontal sides*/
+}
+.cssMargin>h1:nth-child(4){
+    Margin: 50px 25px 70px 80px;/*apply for top verticle horizontal bottom sides*/
+}
+/* css boxmodel CODE */
+.cssBoxModel{
+    padding: 20px;
+    background-color: aqua;
+    border: 5px solid blue;
+    margin: 30px;
+    color: burlywood;
+}

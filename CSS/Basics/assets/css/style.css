@@ -1,0 +1,201 @@
+/*p6.html code*/
+.cssColor1{
+    background-color: #d5f7be;
+
+}
+.cssColor2{
+    background-color: #ea88ea;
+}
+.cssColor3{
+    background-color: purple;
+}
+.commoncsscolors{
+    color:#86efef;
+    padding: 20px;
+    margin: 20px;
+}
+/*p7.html code*/
+.jumbotron{
+    background-color:#e03ae0;
+
+    border-radius: 10px;
+}
+.cssfont{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+/* p8.html code */
+.csstext{
+    text-decoration: underline;
+    line-height:2;
+    letter-spacing:2px;
+    word-spacing: 20px;
+    text-transform: uppercase;  
+}
+.csstext>p{
+    text-indent: 100px;
+}
+/* p9.html code */
+.navbar{
+    background-color: gray;
+}
+.navbar>ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+.navbar>ul>li{
+    display: inline-block;
+    padding: 20px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+.navbar>ul>li:hover{
+    background-color: #fff;
+}
+.navbar>ul>li:hover a{
+    color: green;
+}
+.navbar img{
+    height: 54px;
+    width: 10%;
+}
+
+/* p10.html code */
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.list-marker-position>ol>li>a{
+    text-decoration: none;
+    color: #86efef;
+}
+.list-marker-position>ol>li::marker{
+    color: purple;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* p10.html code */
+.list-icon>ul>li{
+    list-style-image: url(../images/img5.png);
+
+}
+/* p12.html code */
+.list-shorthand>ul>li{
+    background-color: yellow;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style: none inside url(../images/img5.png);
+}
+/* p13.html code */
+.empty-cell-table{
+    empty-cells: hide;
+}
+/* p14.html code */
+.odd-even-table, .odd-even-table th, .odd-even-table td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.odd-even-table tr:nth-child(odd){
+    background-color: grey;
+}
+.odd-even-table tr:nth-child(even){
+    background-color: lightcoral;
+}
+.odd-even-table tr:hover{
+    background-color: red;
+}
+.odd-even-table th{
+    background-color: blue;
+
+}
+.odd-even-table>caption{
+    color: green;
+    font-weight: bold;
+    caption-side: bottom;
+}
+.odd-even-table td{
+    height: 100px;
+    vertical-align: text-top;
+}
+/* p15.html code */
+.layout-table, .layout-table th, .layout-table td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.layout-table{
+    width: 10%;
+    table-layout: fixed;
+}
+.layout-table td, .layout-table th{
+    overflow: scroll;
+}
+/* p16.html code */
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+header{
+    background-color: blue;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>img{
+    height: 59px;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+header>nav>ul>li:hover{
+    background-color: gray;
+}
+header>nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+/* p17.html code */
+.banner1{
+    background-color: #d5f7be;
+}
+.bannercommonclass{
+    color: #e03ae0;
+    padding: 30px;
+    text-align: center;
+    height: 100vh;
+}
+.bannercommonclass>h1{
+    font-size: 50px;
+    padding-top: 65px;
+}
+.bannercommonclass>h1:hover{
+    color: orange;
+}
+/* p18.html code */
+.banner2{
+    background-image: url(../images/img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+}
+/* assignment.html code */

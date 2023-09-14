@@ -1,0 +1,26 @@
+.title{
+    background-color: gold;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+.title>h1{
+    color: blueviolet;
+}
+.title>p{
+    color: aquamarine;
+    font-size: 30px;
+}
+/* Common class*/
+.common{
+    background-color: #ddd;
+    padding: 30px;
+    margin: 30px;
+    border: 3px solid red;
+
+}
+.cssoutline{
+    outline: 3px solid yellow;
+    border-radius: 30px;
+}
